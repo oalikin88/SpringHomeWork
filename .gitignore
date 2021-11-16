@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 # Intellij
 .idea/
-target/
+target
 *.iml
 *.iws
