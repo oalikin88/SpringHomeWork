@@ -12,9 +12,11 @@
     <title>Выберите тип двигателя</title>
 </head>
 <body>
-<form:form method="GET" action="showInfo">
-    Запрос <form:input path="engine"/>
-    <input type="submit" value="Submit">
+<h2>petrol or diesel?</h2>
+<br>
+<form:form method="GET" action="showinfo" >
+    Запрос <input type="text" name="type"/>
+    <input type="submit" value="Отправить">
 </form:form>
 </body>
 </html>

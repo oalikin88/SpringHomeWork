@@ -11,9 +11,8 @@
     <title>Результат</title>
 </head>
 <body>
-<h2>${engine}</h2>
+<h2>${engine.powerUp()}</h2>
 <br>
-<br>
-<a href="./">Вернуться назад</a>
+<a href="ask">Вернуться назад</a>
 </body>
 </html>

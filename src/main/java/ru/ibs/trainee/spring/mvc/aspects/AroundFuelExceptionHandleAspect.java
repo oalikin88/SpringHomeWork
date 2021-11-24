@@ -18,7 +18,7 @@ public class AroundFuelExceptionHandleAspect {
            s =  proceedingJoinPoint.proceed();
         } catch (RuntimeException e) {
             System.out.println(e);
-         return "Что то пошло не так";
+         return "show-error";
         }
         return s;
     }
